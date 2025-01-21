@@ -1,0 +1,15 @@
+.imageDIV {
+    object-fit: contain;
+    border-radius: 10px;
+    /* border: 10px solid transparent; */
+
+}
+
+.imageDIV img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.steel-intro-title{
+    color: blue;
+}
