@@ -1,11 +1,11 @@
 .imageDIV {
     border-radius: 10px;
     height: 400px;
-    background-image:linear-gradient(to left, rgb(125, 184, 211) 50%, rgb(208, 186, 113) );
-    display: flex;
-    justify-content: center;
+    background-image: linear-gradient(to left, rgb(125, 184, 211) 50%, rgb(208, 186, 113));
     margin-top: 5px;
+    position: relative;
 }
+
 .imageDIV img {
     max-width: 100%;
     height: auto;
@@ -19,13 +19,41 @@
 .steel-intro-title:hover {
     color: rgb(149, 149, 199);
 }
-.info-jan{
+
+.info-jan {
     height: 45px;
-    width: auto;
     background-color: #fff;
     padding: 10px;
+    width: 225px;
+    position: absolute;
+    left: 40%;
     border-top: none;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
+.update-cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Optional: to horizontally center as well */
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.update-card-single {
+    height: 190px;
+    width: 190px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.update_num {
+    background-color: rgb(222, 222, 239);
+}
+.dates_updates{
+    text-align: start;
+}
