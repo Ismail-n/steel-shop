@@ -1,15 +1,31 @@
 .imageDIV {
-    object-fit: contain;
     border-radius: 10px;
-    /* border: 10px solid transparent; */
-
+    height: 400px;
+    background-image:linear-gradient(to left, rgb(125, 184, 211) 50%, rgb(208, 186, 113) );
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
-
 .imageDIV img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
 }
-.steel-intro-title{
+
+.steel-intro-title {
     color: blue;
 }
+
+.steel-intro-title:hover {
+    color: rgb(149, 149, 199);
+}
+.info-jan{
+    height: 45px;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
